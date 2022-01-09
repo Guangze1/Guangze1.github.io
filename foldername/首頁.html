@@ -1,32 +1,70 @@
+<!DOCTYPE html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <head>
+    <meta charset="utf-8">
     <title>好吃早餐店</title>
 </head>
+<style>
+  .container { display: flex; flex-direction: column;  min-height: 100vh;}
+  main { flex: 1;}
+  footer { width: 100%;	background: rgb(65, 69, 73);	color: #fff}
+ 
+
+      </style>
 <body>
-<table frame="void"width="100%" cellpadding="20" rules="groups" >
+  <table frame="void" width="100%"  cellpadding="20" rules="groups" >
     <thead>
     <tr>
-        <td  width="100%" colspan="5" rowspan="2" ><font size="5" color="blue" face="標楷體"><b>好吃早餐店</b></font><img src ="蛋.jpg" width="40" height="40" align="left"></td>
+      <td  width="100%" colspan="5" rowspan="2" ><font size="10" color="blue" face="標楷體"><b>好吃早餐店</b></font><img src ="蛋.jpg" width="70" height="70" align="left"></td>
     </tr>
 </thead>
 <tbody>
-    <tr>
-        <td  bgcolor="#5B5B5B"></td>
-        <td bgcolor="#5B5B5B" align="center" width="20%"><a href="首頁.html" style="color:aqua;text-decoration:none">首&nbsp頁</a></td>
-        <td bgcolor="#5B5B5B" align="center" width="20%"><a href="關於.html" style="color:white;text-decoration:none">關&nbsp於</a></td>
-        <td bgcolor="#5B5B5B" align="center" width="20%"><a href="菜單.html" style="color:white;text-decoration:none">菜&nbsp單</a></td>
-        <td colspan="2"bgcolor="#5B5B5B"></td>
+    <tr height="100">
+      <td  bgcolor="#5B5B5B"></td>
+      <td bgcolor="#5B5B5B" align="center" width="20%"><a href="首頁.html" style="color:aqua;text-decoration:none"><font size="5">首&nbsp頁</font></a></td>
+      <td bgcolor="#5B5B5B" align="center" width="20%"><a href="關於.html" style="color:white;text-decoration:none"><font size="5">關&nbsp於</font></a></td>
+      <td bgcolor="#5B5B5B" align="center" width="20%"><a href="菜單.html" style="color:white;text-decoration:none"><font size="5">菜&nbsp單</font></a></td>
+      <td  bgcolor="#5B5B5B"></td>
     </tr>
 </tbody>
-    <tr>
-        <td rowspan="10" align="center">
+    <tr><td></td>
+        <td  >
         </td>
-        <td><font size="6">公告</font></td>
+        <td><font size="15"><b>公告</b></font></td>
     </tr>
+    <tr>
+      <td></td><td></td>
+    <td class="container"align="center" >
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img width="600" src ="慶開幕.jpg" class="d-block w-5" alt="慶開幕.jpg">
+          </div>
+          <div class="carousel-item">
+            <img width="600" src="公休圖.jpg" class="d-block w-5" alt="公休圖.jpg">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     
-    <td>
-        <li>x/x來店享75折</li>
-        <li>x/x來店享75折</li>
-        <li>x/x來店享75折</li>
-    </td>    
+   
+  </tr>
     </table>
+    <footer> &nbsp 聯絡電話&nbsp : &nbsp 05-272041100<br>
+      &nbsp E-mail&nbsp :&nbsp secretar00@ccu.edu.tw<br>
+      &nbsp 地址&nbsp :&nbsp 62130100嘉義縣民雄鄉大學路一段16800號<br>
+    </footer>
     </body>
